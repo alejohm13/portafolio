@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+  display: flex;
+width: 100%;
+height: 100vh;
+}
+
+.menulate{
+  background-image: linear-gradient(90deg, #d0bca8 10%, #b7865d 90%);
+width: 25%;
+height: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+
+}
+
+.foto{
+width: 125%;
+height: 260px;
+}
+
+.contacto{
+z-index: 3;
+}
+
+.titu{
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  left: 390px;
+  border-radius: 50%;
+  z-index: 4;
+  font-size: 34px;
+}
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tex{
+
+    position: absolute;
+    top: 350px;
+    left: 390px;
+    border-radius: 50%;
+    z-index: 4;
+    text-align: left;
+    
+  }
+
+  .logros{
+    position: absolute;
+    top: 500px;
+    left: 390px;
+    border-radius: 50%;
+    z-index: 4;
+  }
+
+  .habilidades{
+    position: absolute;
+    top: 600px;
+    left: 390px;
+    border-radius: 50%;
+    z-index: 4;
+  }
+
+  .caja{
+    background-color: rgb(189, 195, 199);
+    z-index: 5;
+  
+  }
+
+.contacto img{
+width: 11%;
+height: 6%;
+}
+
+main{
+  width: 100%;
+background-color: #DFD2BA;
+}
+
